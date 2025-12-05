@@ -20,7 +20,7 @@ public class TareaSimple {
         /* 
         if (this.completado) {
             this.completado = false;
-        } else {
+        } else { 
             this.completado = true;
         }
         */
