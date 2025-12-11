@@ -10,38 +10,38 @@ public class Publicacion {
 		super();
 		this.contenido = publicacion;
 	}
-
-
+	
+	
 	public String getPublicacion() {
 		return contenido;
 	}
-
-
+	
+	
 	public void setPublicacion(String publicacion) {
 		this.contenido = publicacion;
 	}
 	
-
+	
 	public int getLikes() {
 		return likes;
 	}
-
-
+	
+	
 	public void setLikes(int likes) {
 		this.likes = likes;
 	}
-
-
+	
+	
 	public String getHora() {
 		return hora;
 	}
-
-
+	
+	
 	public void setHora(String hora) {
 		this.hora = hora;
 	}
 	
-	
+		
 	
 }
 
