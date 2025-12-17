@@ -27,6 +27,12 @@ public class PerfilRedSocial {
 		super();
 		this.publicaciones = new ArrayList<>();
 	}
+	
+	public PerfilRedSocial(String username, String nombre) {
+		super();
+		this.nombreUsuario= nombreUsuario;
+		this.nombre= nombre;
+	}
 
 	public PerfilRedSocial(String nombreUsuario, String nombre, String biografia, String ciudad, int numeroSeguidores,
 			int numeroPublicaciones, EstadoPerfil estado, boolean cuentaVerificada) {
